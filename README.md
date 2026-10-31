@@ -12,4 +12,4 @@ An Arch Linux nerd who loves being outside in nature! I spend my time exploring 
 - 🌐 Website: [https://www.bigland.cc](https://www.bigland.cc/)
 - 📫 Email: dev@bigland.cc
 - You can also send me a message on matrix at @admin:matrix.bigland.cc
-- 😄 Pronouns: He/Him
+- 😄 Pronouns: Don't care LOL theres only two genders fight me over it lmfao
