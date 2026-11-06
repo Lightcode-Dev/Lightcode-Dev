@@ -19,9 +19,11 @@
 ## 🔭 What I'm working on
 
 - 🦀 **[weyes](https://github.com/Lightcode-Dev/weyes)**: an xeyes clone written in Rust, with Wayland and X11 support on Linux
-- 📊 **sysmon**: a system monitor in strict C90 that reads straight from `/proc` and `/sys`
+- 📊 **[sysmon](https://github.com/Lightcode-Dev/sysmon)**: a system monitor in strict C90 that reads straight from `/proc` and `/sys`
+- 🖥️ Currently working on adding GPU support for NVIDIA graphics cards to sysmon
 - 🖥️ A from-scratch **Hyprland** desktop, configured in Lua
-- 📡 A custom **Arch Linux router**, plus an OpenWrt port for the TP-Link Archer C5400X
+- 📡 A custom **Arch Linux router**
+- 📡 OpenWrt port for the TP-Link Archer C5400X [ArcherC5400](https://www.tp-link.com/ca/home-networking/wifi-router/archer-c5400x/) - EOL
 - 🐧 Building and tuning custom Linux kernels
 
 ## 🏠 Homelab Infra
@@ -31,8 +33,8 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 - **Virtualization:** Proxmox hosts the VMs and containers
 - **Edge:** Caddy is the public-facing reverse proxy and handles TLS
 - **Back ends:** Apache serves the individual services behind it
-- **Media:** Icecast and MPD for music streaming over the internet
-- **Email:** self-hosted mail on my own domain
+- **Media:** Icecast and MPD for music streaming over the internet, Navidrome, Jellyfin
+- **Email:** self-hosted mail server on my own domain
 - **Networking:** a custom Arch Linux router is in the works, with VLANs planned
 
 ## 🧰 Tools I use
@@ -49,6 +51,7 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 - Wayland protocols and how compositors talk to clients
 - Kernel configuration and packaging with `makepkg`
 - Embedded and router firmware internals
+- Hardware Hacking and Reverse engineering 
 
 ## 📫 Get in touch
 
