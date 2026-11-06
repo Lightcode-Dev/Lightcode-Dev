@@ -23,19 +23,19 @@
 - 🖥️ Currently working on adding GPU support for NVIDIA graphics cards to sysmon
 - 🖥️ A from-scratch **Hyprland** desktop, configured in Lua
 - 📡 A custom **Arch Linux router**
-- 📡 OpenWrt port for the [TP-Link Archer C5400X](https://www.tp-link.com/ca/home-networking/wifi-router/archer-c5400x/) - EOL
+- 📡 OpenWrt port for the [TP-Link Archer C5400X](https://www.tp-link.com/ca/home-networking/wifi-router/archer-c5400x/) - Got some real progress made!!
 - 🐧 Building and tuning custom Linux kernels
 
 ## 🏠 Homelab Infra
 
 I run my own self-hosted setup and treat it as a place to learn new skills and gain knowledge.
 
-- **Virtualization:** Proxmox hosts the VMs and containers
+- **Virtualisation:** Proxmox hosts the VMs and containers
 - **Edge:** Caddy is the public-facing reverse proxy and handles TLS
 - **Back ends:** Apache serves the individual services behind it
 - **Media:** Icecast and MPD for music streaming over the internet, Jellyfin for self hosted movies and shows!
 - **Email:** self-hosted mail server on my own domain with a score of 9.8/10 on [mailtester.com](https://mail-tester.com/)
-- **Networking:** a custom Arch Linux router is in the works, with VLANs planned
+- **Networking:** a custom Arch Linux router is in the works, with V LANs planned.
 
 ## 🧰 Tools I use
 
@@ -57,6 +57,7 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 
 - GitHub: [@Lightcode-Dev](https://github.com/Lightcode-Dev)
 - Open an issue on any of my repos, or start a discussion. Happy to chat.
+- Email: dev@bigland.cc
 
 ---
 
