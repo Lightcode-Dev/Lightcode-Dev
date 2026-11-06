@@ -26,7 +26,7 @@
 
 ## 🏠 Homelab Infra
 
-I run my own self-hosted setup and treat it as a place to learn real-world ops.
+I run my own self-hosted setup and treat it as a place to learn new skills and gain knowledge.
 
 - **Virtualization:** Proxmox hosts the VMs and containers
 - **Edge:** Caddy is the public-facing reverse proxy and handles TLS
