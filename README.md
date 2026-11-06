@@ -1,14 +1,50 @@
-# Hi there, I'm Nathan! 🤓☕
+<h1 align="center">Hi, I'm Nathan! 👋</h1>
 
-An Arch Linux nerd who loves being outside in nature! I spend my time exploring Labrador’s beautiful landscapes and sharing those captures on my website at [bigland.cc](https://www.bigland.cc/). When the camera is away, I’m usually sipping on coffee ☕, listening to music 🎶, playing guitar/bass 🎸, or coding/hacking away in Doom Emacs 😎.
+<p align="center">
+  <em>Linux tinkerer. I like low-level things, tiling desktops, and building tools from scratch to learn how they work.</em>
+</p>
 
-* **Programming Languages:** Rust, Go, Lua, Bash, C, C++, Python, Lisp, php
-* **OS/Environment:** Arch Linux(BTW), Hyprland
-* **Infrastructure:** Proxmox VE, Proxmox Mail Gateway, Proxmox Backup Server, Mailcow, Docker, Caddy, Tailscale, Matrix homeserver (Invite only)
+<p align="center">
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
+</p>
 
-- 🔭 I’m currently working on a custom Hyprland setup featuring dynamic wallpaper-driven theming via wallust, complete with a custom script that generates a hybrid Oxygen/Breeze icon theme for seamless Dolphin file manager integration.
-- 🌱 I’m currently learning C, C++, Rust, Go, Python, and Lua
-- 💬 Feel free to Ask me for help! Not sure if all be of use but if i can help someone out that's all that matters! 
-- 🌐 Website: [https://www.bigland.cc](https://www.bigland.cc/)
-- 📫 Email: dev@bigland.cc
-- You can also send me a message on matrix at @admin:matrix.bigland.cc
+---
+
+## 🔭 What I'm working on
+
+- 🦀 **[weyes](https://github.com/Lightcode-Dev/weyes)**: an xeyes clone written in Rust, with Wayland and X11 support on Linux
+- 📊 **sysmon**: a system monitor in strict C90 that reads straight from `/proc` and `/sys`
+- 🖥️ A from-scratch **Hyprland** desktop, configured in Lua
+- 📡 A custom **Arch Linux router**, plus an OpenWrt port for the TP-Link Archer C5400X
+- 🐧 Building and tuning custom Linux kernels
+
+## 🧰 Tools I use
+
+| Area | Stack |
+| --- | --- |
+| Languages | C, Rust, Bash, Lua |
+| OS | Arch Linux |
+| Desktop | Hyprland, KDE Plasma, kitty |
+| Infra | Proxmox, Caddy, Apache |
+| Networking | OpenWrt, NFS, Icecast + MPD |
+
+## 🌱 Currently learning
+
+- Wayland protocols and how compositors talk to clients
+- Kernel configuration and packaging with `makepkg`
+- Embedded and router firmware internals
+
+## 📫 Get in touch
+
+- GitHub: [@Lightcode-Dev](https://github.com/Lightcode-Dev)
+- Open an issue on any of my repos, or start a discussion. Happy to chat.
+
+---
+
+<p align="center">
+  <sub>Built with Vim and too much coffee. ☕</sub>
+</p>
