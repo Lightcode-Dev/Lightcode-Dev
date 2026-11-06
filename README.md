@@ -23,7 +23,8 @@
 - 🖥️ Currently working on adding GPU support for NVIDIA graphics cards to sysmon
 - 🖥️ A from-scratch **Hyprland** desktop, configured in Lua
 - 📡 A custom **Arch Linux router**
-- 📡 OpenWrt port for the [TP-Link Archer C5400X](https://www.tp-link.com/ca/home-networking/wifi-router/archer-c5400x/) - Got some real progress made!!
+- 📡 OpenWrt port for the [TP-Link Archer C5400X](https://www.tp-link.com/ca/home-networking/wifi-router/archer-c5400x/)
+- Got some real progress made recently!!
 - 🐧 Building and tuning custom Linux kernels
 
 ## 🏠 Homelab Infra
