@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Nathan! 👋</h1>
+<h1 align="center">Hi, I'm Lightcode 👋</h1>
 
 <p align="center">
   <em>Linux tinkerer. I like low-level things, tiling desktops, and building tools from scratch to learn how they work.</em>
@@ -7,6 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
@@ -26,7 +27,7 @@
 
 | Area | Stack |
 | --- | --- |
-| Languages | C, Rust, Bash, Lua |
+| Languages | C, Rust, Python, Bash, Lua |
 | OS | Arch Linux |
 | Desktop | Hyprland, KDE Plasma, kitty |
 | Infra | Proxmox, Caddy, Apache |
