@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Lightcode 👋</h1>
+<h1 align="center">Hi, I'm Nathan 👋</h1>
 
 <p align="center">
   <em>Linux tinkerer. I like low-level things, tiling desktops, and building tools from scratch to learn how they work.</em>
