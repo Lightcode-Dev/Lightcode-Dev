@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
+  <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" />
 </p>
 
 ---
@@ -23,6 +24,17 @@
 - 📡 A custom **Arch Linux router**, plus an OpenWrt port for the TP-Link Archer C5400X
 - 🐧 Building and tuning custom Linux kernels
 
+## 🏠 Homelab Infra
+
+I run my own self-hosted setup and treat it as a place to learn real-world ops.
+
+- **Virtualization:** Proxmox hosts the VMs and containers
+- **Edge:** Caddy is the public-facing reverse proxy and handles TLS
+- **Back ends:** Apache serves the individual services behind it
+- **Media:** Icecast and MPD for music streaming over the internet
+- **Email:** self-hosted mail on my own domain
+- **Networking:** a custom Arch Linux router is in the works, with VLANs planned
+
 ## 🧰 Tools I use
 
 | Area | Stack |
@@ -30,7 +42,6 @@
 | Languages | C, Rust, Python, Bash, Lua |
 | OS | Arch Linux |
 | Desktop | Hyprland, KDE Plasma, kitty |
-| Infra | Proxmox, Caddy, Apache |
 | Networking | OpenWrt, NFS, Icecast + MPD |
 
 ## 🌱 Currently learning
