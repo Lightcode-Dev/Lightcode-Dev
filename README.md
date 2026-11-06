@@ -33,8 +33,8 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 - **Virtualization:** Proxmox hosts the VMs and containers
 - **Edge:** Caddy is the public-facing reverse proxy and handles TLS
 - **Back ends:** Apache serves the individual services behind it
-- **Media:** Icecast and MPD for music streaming over the internet, Navidrome, Jellyfin
-- **Email:** self-hosted mail server on my own domain
+- **Media:** Icecast and MPD for music streaming over the internet, Jellyfin for self hosted movies and shows!
+- **Email:** self-hosted mail server on my own domain with a score of 9.8/10 on [mailtester.com](https://mail-tester.com/)
 - **Networking:** a custom Arch Linux router is in the works, with VLANs planned
 
 ## 🧰 Tools I use
