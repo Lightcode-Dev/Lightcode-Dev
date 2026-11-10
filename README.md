@@ -19,7 +19,8 @@
 ## 🔭 What I'm working on
 
 - 🦀 **[weyes](https://github.com/Lightcode-Dev/weyes)**: an xeyes clone written in Rust, with Wayland and X11 support on Linux
-- 📊 **[sysmon](https://github.com/Lightcode-Dev/sysmon)**: a system monitor in strict C90 that reads straight from `/proc` and `/sys` (currently adding NVIDIA GPU support)
+- 📊 **[sysmon](https://github.com/Lightcode-Dev/sysmon)**: a Linux based system monitor written in C (currently adding NVIDIA GPU support)
+- install sysmon from source or from the Arch user repository as sysmon-tui (Not related to the other sysmon packages currently on the aur)
 - 💬 **[matrix-tui](https://github.com/Lightcode-Dev/matrix-tui)**: an open-source terminal user interface client for Matrix written in Rust
 - 🎨 **[kitty-theme-select](https://github.com/Lightcode-Dev/kitty-theme-select)**: an interactive terminal script for customizing Kitty
 - 🖥️ A from-scratch **Hyprland** desktop, configured in Lua
