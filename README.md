@@ -38,14 +38,16 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 - **Email:** Self-hosted Mailcow instance on my own domain with a score of 9.8/10 on [mail-tester.com](https://mail-tester.com/)
 - **Networking:** A custom Arch Linux router is in the works, with VLANs planned
 
-## 🧰 Tools I use
+## 🧰 Tools & Infrastructure
 
-| Area | Stack |
-| ---  |  ---  |
-| Languages | C, Rust, Python, Bash, Lua |
-| OS | Arch Linux, Proxmox, Alpine Linux |
-| Desktop | Hyprland, KDE Plasma |
-| Networking | OpenWrt, NFS, Icecast + MPD |
+| Category | Stack |
+| :--- | :--- |
+| 💻 **Languages** | C, Rust, Lua, Python, Bash, Go |
+| 🛠️ **Environment** | Doom Emacs (Evil-mode), Kitty Terminal, Fish/Zsh, Starship |
+| 🐧 **OS & Virt** | Arch Linux (Daily), Proxmox VE (Multi-node), Debian LXC |
+| 🎨 **Desktop Ricing** | Hyprland, KDE Plasma, Wallust, Eww |
+| 🐳 **Self-Hosted Infra** | Caddy + CrowdSec, Mailcow, Matrix Synapse, Home Assistant |
+| 📡 **Networking** | OpenWrt, NFS (systemd automounts), Icecast + MPD |
 
 ## 🌱 Currently learning
 
