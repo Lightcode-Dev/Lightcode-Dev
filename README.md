@@ -49,10 +49,12 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 
 ## 🌱 Currently learning
 
-- Wayland protocols and how compositors talk to clients
-- Kernel configuration and packaging with `makepkg`
+- 🪟 **Wayland Internals:** Diving deep into Wayland protocols and client-compositor IPC for my custom Hyprland environment
+- 📦 **Advanced Arch Packaging:** Mastering kernel configuration, `makepkg`, and building custom CPU-optimized native kernels
 - Embedded and router firmware internals
-- Hardware Hacking and Reverse engineering using Ghidra
+- 🔬 **Reverse Engineering:** Using Ghidra for hardware hacking and dissecting embedded router firmware
+- 🤖 **Local AI Automation:** Integrating Ollama local LLMs with Home Assistant for entirely offline smart home voice control
+- ❄️ **Declarative Systems:** Exploring NixOS, `nix-shell`, and the philosophy of reproducible system management
 
 ## 📫 Get in touch
 
