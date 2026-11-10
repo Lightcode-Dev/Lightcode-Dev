@@ -44,7 +44,7 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 | :--- | :--- |
 | 💻 **Languages** | C, Rust, Lua, Python, Bash, Go |
 | 🛠️ **Environment** | Doom Emacs (Evil-mode), Kitty Terminal, Fish/Zsh, Starship |
-| 🐧 **OS & Virt** | Arch Linux (Daily), Proxmox VE (Multi-node), Debian LXC |
+| 🐧 **OS & Virt** | Arch Linux (Daily), Proxmox VE (Multi-node), Debian LXC, Alpine Linux LXC |
 | 🎨 **Desktop Ricing** | Hyprland, KDE Plasma, Wallust, Eww |
 | 🐳 **Self-Hosted Infra** | Caddy + CrowdSec, Mailcow, Matrix Synapse, Home Assistant |
 | 📡 **Networking** | OpenWrt, NFS (systemd automounts), Icecast + MPD |
