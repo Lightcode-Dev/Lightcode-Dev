@@ -27,10 +27,6 @@
 - 📡 OpenWrt port for the [TP-Link Archer C5400X](https://www.tp-link.com/ca/home-networking/wifi-router/archer-c5400x/) (making some real progress recently!)
 - 🐧 Building and tuning custom Linux kernels (e.g., compiling with `CONFIG_RUST=y` and `march=native` CPU optimizations)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lightcode-Dev&show_icons=true&theme=tokyonight&hide_border=true" alt="Lightcode-Dev's GitHub Stats" />
-</p>
-
 ## 🏠 Homelab Infra
 
 I run my own self-hosted setup and treat it as a place to learn new skills and gain knowledge.
