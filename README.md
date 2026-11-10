@@ -38,7 +38,29 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 - **Email:** Self-hosted Mailcow instance on my own domain with a score of 9.8/10 on [mail-tester.com](https://mail-tester.com/)
 - **Networking:** A custom Arch Linux router is in the works, with VLANs planned
 
+[ WAN / Internet ]
+        │
+        ▼ 443/TCP
+┌───────────────────────────────┐
+│       Edge Layer              │
+│  [ Caddy Reverse Proxy ]      │
+│          │ ▲                  │
+│          ▼ │ Validates IPs    │
+│  [ CrowdSec Bouncer ]         │
+└──────────┬────────────────────┘
+           │
+           ▼ Proxy Pass
+┌───────────────────────────────┐
+│   Proxmox Cluster Services    │
+│                               │
+│  ├──► [ Mailcow ]             │
+│  ├──► [ Matrix Synapse ]      │
+│  ├──► [ Apache ]              │
+│  ├──► [ Jellyfin / Icecast ]  │
+│  └──► [ Home Assistant ]      │
+└───────────────────────────────┘
 
+* Nodes: caubvick, frozen, bigland
 
 ## 🧰 Tools & Infrastructure
 
