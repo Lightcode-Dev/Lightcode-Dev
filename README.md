@@ -19,32 +19,36 @@
 ## 🔭 What I'm working on
 
 - 🦀 **[weyes](https://github.com/Lightcode-Dev/weyes)**: an xeyes clone written in Rust, with Wayland and X11 support on Linux
-- 📊 **[sysmon](https://github.com/Lightcode-Dev/sysmon)**: a system monitor in strict C90 that reads straight from `/proc` and `/sys`
-- 🖥️ Currently working on adding GPU support for NVIDIA graphics cards to sysmon
+- 📊 **[sysmon](https://github.com/Lightcode-Dev/sysmon)**: a system monitor in strict C90 that reads straight from `/proc` and `/sys` (currently adding NVIDIA GPU support)
+- 💬 **[matrix-tui](https://github.com/Lightcode-Dev/matrix-tui)**: an open-source terminal user interface client for Matrix written in Rust
+- 🎨 **[kitty-theme-select](https://github.com/Lightcode-Dev/kitty-theme-select)**: an interactive terminal script for customizing Kitty
 - 🖥️ A from-scratch **Hyprland** desktop, configured in Lua
 - 📡 A custom **Arch Linux router**
-- 📡 OpenWrt port for the [TP-Link Archer C5400X](https://www.tp-link.com/ca/home-networking/wifi-router/archer-c5400x/)
-- Got some real progress made recently!!
-- 🐧 Building and tuning custom Linux kernels
+- 📡 OpenWrt port for the [TP-Link Archer C5400X](https://www.tp-link.com/ca/home-networking/wifi-router/archer-c5400x/) (making some real progress recently!)
+- 🐧 Building and tuning custom Linux kernels (e.g., compiling with `CONFIG_RUST=y` and `march=native` CPU optimizations)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Lightcode-Dev&show_icons=true&theme=tokyonight&hide_border=true" alt="Lightcode-Dev's GitHub Stats" />
+</p>
 
 ## 🏠 Homelab Infra
 
 I run my own self-hosted setup and treat it as a place to learn new skills and gain knowledge.
 
-- **Virtualisation:** Proxmox hosts the VMs and containers
-- **Edge:** Caddy is the public-facing reverse proxy and handles TLS
-- **Back ends:** Apache serves the individual services behind it
-- **Media:** Icecast and MPD for music streaming over the internet, Jellyfin for self hosted movies and shows!
-- **Email:** self-hosted mail server on my own domain with a score of 9.8/10 on [mailtester.com](https://mail-tester.com/)
-- **Networking:** a custom Arch Linux router is in the works, with V LANs planned.
+- **Virtualisation:** Multi-node Proxmox cluster hosting my VMs and LXC containers
+- **Edge:** Caddy is the public-facing reverse proxy for my services and handles TLS. I also maintain the `caddy-crowdsec-git` package on the AUR for WAF/AppSec integration!
+- **Back ends:** Apache, Anubis
+- **Media:** Icecast and MPD for music streaming over the internet, Jellyfin for self-hosted movies and shows
+- **Email:** Self-hosted Mailcow instance on my own domain with a score of 9.8/10 on [mail-tester.com](https://mail-tester.com/)
+- **Networking:** A custom Arch Linux router is in the works, with VLANs planned
 
 ## 🧰 Tools I use
 
 | Area | Stack |
-| --- | --- |
+| ---  |  ---  |
 | Languages | C, Rust, Python, Bash, Lua |
-| OS | Arch Linux |
-| Desktop | Hyprland, KDE Plasma, kitty |
+| OS | Arch Linux, Proxmox, Alpine Linux |
+| Desktop | Hyprland, KDE Plasma |
 | Networking | OpenWrt, NFS, Icecast + MPD |
 
 ## 🌱 Currently learning
@@ -52,16 +56,18 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 - Wayland protocols and how compositors talk to clients
 - Kernel configuration and packaging with `makepkg`
 - Embedded and router firmware internals
-- Hardware Hacking and Reverse engineering 
+- Hardware Hacking and Reverse engineering using Ghidra
 
 ## 📫 Get in touch
 
-- GitHub: [@Lightcode-Dev](https://github.com/Lightcode-Dev)
+- **GitHub:** [@Lightcode-Dev](https://github.com/Lightcode-Dev)
+- **Mastodon:** [@lightcode177@mastodon.social](https://mastodon.social/@lightcode177)
+- **Web:** [bigland.cc](https://bigland.cc) (Check out my subarctic landscape photography!)
+- **Email:** dev@bigland.cc
 - Open an issue on any of my repos, or start a discussion. Happy to chat.
-- Email: dev@bigland.cc
 
 ---
 
 <p align="center">
-  <sub>Built with Vim and too much coffee. ☕</sub>
+  <sub>Built with Doom Emacs and too much coffee. ☕</sub>
 </p>
