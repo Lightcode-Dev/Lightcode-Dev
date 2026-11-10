@@ -61,7 +61,6 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 │  └──► [ Home Assistant ]      │
 └───────────────────────────────┘
 
-* Nodes: caubvick, frozen, bigland
 ```
 
 ## 🧰 Tools & Infrastructure
