@@ -38,29 +38,7 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 - **Email:** Self-hosted Mailcow instance on my own domain with a score of 9.8/10 on [mail-tester.com](https://mail-tester.com/)
 - **Networking:** A custom Arch Linux router is in the works, with VLANs planned
 
-graph TD
-    WAN((Internet Users))
 
-    subgraph Edge [Edge Security & Proxy]
-        Caddy[Caddy Reverse Proxy]
-        CrowdSec[CrowdSec WAF]
-        Caddy -.->|Validates IPs| CrowdSec
-    end
-
-    subgraph Proxmox [Proxmox VE Cluster: caubvick, frozen, bigland]
-        Mail[Mailcow]
-        Chat[Matrix Synapse]
-        Web[Apache]
-        Media[Jellyfin & Icecast]
-        IOT[Home Assistant]
-    end
-
-    WAN == HTTPS ==> Caddy
-    Caddy --> Mail
-    Caddy --> Chat
-    Caddy --> Web
-    Caddy --> Media
-    Caddy --> IOT
 
 ## 🧰 Tools & Infrastructure
 
