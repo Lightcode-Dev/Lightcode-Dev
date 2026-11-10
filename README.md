@@ -38,6 +38,49 @@ I run my own self-hosted setup and treat it as a place to learn new skills and g
 - **Email:** Self-hosted Mailcow instance on my own domain with a score of 9.8/10 on [mail-tester.com](https://mail-tester.com/)
 - **Networking:** A custom Arch Linux router is in the works, with VLANs planned
 
+flowchart TB
+    %% Styling for a dark/terminal aesthetic (Tokyo Night inspired)
+    classDef internet fill:#16161e,stroke:#7aa2f7,stroke-width:2px,color:#c0caf5
+    classDef edge fill:#1a1b26,stroke:#f7768e,stroke-width:2px,color:#c0caf5
+    classDef proxmox fill:#16161e,stroke:#bb9af7,stroke-width:2px,color:#c0caf5
+    classDef service fill:#1a1b26,stroke:#9ece6a,stroke-width:2px,color:#c0caf5
+
+    WAN((Internet Users)):::internet
+
+    subgraph EdgeLayer [Edge Security & Proxy]
+        Caddy["Caddy Reverse Proxy\n(bigland.cc)"]:::edge
+        CrowdSec["CrowdSec\n(WAF & Bouncer)"]:::edge
+        Caddy -.->|Validates IPs| CrowdSec
+    end
+
+    subgraph ProxmoxCluster [Proxmox VE Multi-Node Cluster]
+        
+        subgraph Hardware [Physical Nodes]
+            direction LR
+            N1["caubvick"]:::proxmox
+            N2["frozen"]:::proxmox
+            N3["bigland"]:::proxmox
+        end
+
+        subgraph Services [LXC Containers & VMs]
+            direction LR
+            Mail["Mailcow\n(Email)"]:::service
+            Chat["Matrix Synapse\n(Chat)"]:::service
+            Web["Apache\n(bigland.cc)"]:::service
+            Media["Jellyfin / Icecast\n(Media)"]:::service
+            IOT["Home Assistant\n(Local AI)"]:::service
+        end
+        
+        Hardware -.- Services
+    end
+
+    WAN ==>|HTTPS / TLS| Caddy
+    Caddy ==>|Proxy Pass| Mail
+    Caddy ==>|Proxy Pass| Chat
+    Caddy ==>|Proxy Pass| Web
+    Caddy ==>|Proxy Pass| Media
+    Caddy ==>|Proxy Pass| IOT
+
 ## 🧰 Tools & Infrastructure
 
 | Category | Stack |
